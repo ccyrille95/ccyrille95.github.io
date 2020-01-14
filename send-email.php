@@ -10,8 +10,8 @@
 
     if(isset($_POST['email'])) {
         $from = $_POST['email'];
-    } else if(isset($_POST['contact_email'])) {
-        $from = $_POST['contact_email'];
+    } else if(isset($_POST['email'])) {
+        $from = $_POST['email'];
     } else if(isset($_POST['contact-email'])) {
         $from = $_POST['contact-email'];
     }
