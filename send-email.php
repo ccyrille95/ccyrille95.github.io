@@ -17,7 +17,7 @@
     }
 
     if($from != "") {
-        $success = mail($to, $subject, $body, "From:".$from);
+        $success = mail($to, $name, $message, "From:".$from);
     } else {
         $error = "Email is required";
     }
